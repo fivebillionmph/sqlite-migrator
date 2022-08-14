@@ -16,6 +16,7 @@ fn main() {
 		Ok(_) => {}
 		Err(e) => {
 			eprintln!("Error: {}", e);
+			std::process::exit(1);
 		}
 	}
 }
